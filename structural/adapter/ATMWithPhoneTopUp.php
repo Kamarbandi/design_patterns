@@ -18,7 +18,4 @@ class ATMWithPhoneTopUp extends ATM
         return $amount . $time . rand(0, 10000);
     }
 
-    public function test(){
-
-    }
 }
