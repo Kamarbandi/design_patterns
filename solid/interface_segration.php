@@ -33,13 +33,11 @@ class Book implements IItem, IDiscountable
     {/*...*/
     }
 
-    public
-    function applyDiscount($discount)
+    public function applyDiscount($discount)
     {/*...*/
     }
 
-    public
-    function applyPromocode($promocode)
+    public function applyPromocode($promocode)
     {/*...*/
     }
 }
@@ -54,8 +52,7 @@ class KidsClothes implements IItem, IClothes
     {/*...*/
     }
 
-    public
-    function setColor($color)
+    public function setColor($color)
     {/*...*/
     }
 
